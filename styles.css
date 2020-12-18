@@ -1,0 +1,184 @@
+body {
+  background-color: #0e83cd;
+  color: white;
+}
+.topnav {
+  background-color: #cd570e;
+  height: 16%;
+  overflow: hidden;
+}
+.abt {
+  margin: 4% 10%
+}
+
+
+.btnss {
+  background: #0e83cd;
+}
+.jkl{
+  margin: 10% 0 10% 38%;
+}
+
+footer {
+  background-color: #2305cf;
+  overflow: hidden;
+  padding: 1% 10%;
+}
+p {
+  margin-bottom: 0;
+}
+.button {
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background: none;
+    cursor: pointer;
+    padding: 25px 50px;
+    display: inline-block;
+    margin: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    outline: none;
+    position: relative;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.button:after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+/* Button 1 */
+.button-1 {
+    border: 3px solid #fff;
+    color: #fff;
+}
+/* Button 1a */
+.button-1a:hover,
+.button-1a:active {
+    color: #0e83cd;
+    background: #fff;
+
+}
+/* Button 1b */
+.button-1b:after {
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background: #fff;
+}
+.button-1b:hover,
+.button-1b:active {
+    color: #0e83cd;
+}
+.button-1b:hover:after,
+.button-1b:active:after {
+    height: 100%;
+}
+/* Button 1c */
+.button-1c:after {
+    width: 0%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #fff;
+}
+.button-1c:hover,
+.button-1c:active {
+    color: #0e83cd;
+}
+.button-1c:hover:after,
+.button-1c:active:after {
+    width: 100%;
+}
+/* Button 1d */
+.button-1d {
+    overflow: hidden;
+}
+.button-1d:after {
+    width: 0;
+    height: 103%;
+    top: 50%;
+    left: 50%;
+    background: #fff;
+    opacity: 0;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+.button-1d:hover,
+.button-1d:active {
+    color: #0e83cd;
+}
+.button-1d:hover:after {
+    width: 104%;
+    opacity: 1;
+}
+.button-1d:active:after {
+    width: 101%;
+    opacity: 1;
+}
+/* Button 1e */
+.button-1e {
+    overflow: hidden;
+}
+.button-1e:after {
+    width: 100%;
+    height: 0;
+    top: 50%;
+    left: 50%;
+    background: #fff;
+    opacity: 0;
+    -webkit-transform: translateX(-50%) translateY(-50%) rotate(45deg);
+    -moz-transform: translateX(-50%) translateY(-50%) rotate(45deg);
+    -ms-transform: translateX(-50%) translateY(-50%) rotate(45deg);
+    transform: translateX(-50%) translateY(-50%) rotate(45deg);
+}
+.button-1e:hover,
+.button-1e:active {
+    color: #0e83cd;
+}
+.button-1e:hover:after {
+    height: 335%;
+    opacity: 1;
+}
+.button-1e:active:after {
+    height: 400%;
+    opacity: 1;
+}
+/* Button 1f */
+.button-1f {
+    overflow: hidden;
+}
+.button-1f:after {
+    width: 101%;
+    height: 0;
+    top: 50%;
+    left: 50%;
+    background: #fff;
+    opacity: 0;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+.button-1f:hover,
+.button-1f:active {
+    color: #0e83cd;
+}
+.button-1f:hover:after {
+    height: 104%;
+    opacity: 1;
+}
+.button-1f:active:after {
+    height: 130%;
+    opacity: 1;
+}
